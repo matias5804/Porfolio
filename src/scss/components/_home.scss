@@ -1,0 +1,195 @@
+* 
+::before,
+::after{/*incluíran cualquier borde o relleno que se añadan, y la caja de contenido se encogerá para absorber ese ancho extra.*/
+    box-sizing: border-box;
+}
+
+*{ /* reseteo CSS*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 100%;/*para que el grid ocupe el 100% de la pagina%*/
+    text-align: center;
+    height: 100%;   
+    font-family: 'Montserrat' , sans-serif !important;
+
+}
+
+
+/*
+
+*/
+.divHome{
+    background-image: url(../../assests/img/pictures/fondoHome.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 6em;
+}
+.divNombre h1,
+.divNombre h2{
+    margin: 0;
+}
+.divNombre {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    padding: 1rem;
+}
+
+.divHomePortada{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.divHomePortada h2{
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.divHomePortada h3{
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    
+}
+.divButtonHome{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+.divButtonHome button{
+    font-size: medium;
+    padding: 0.6rem;
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+
+
+@media (min-width: 414px){
+    .divHome{
+        gap: 7rem;
+    }
+    .divHomePortada{
+        padding-top: 4rem;
+        gap: 30px;
+    }
+    .divHomePortada h2{
+        font-size: 3rem;
+    }
+    .divHomePortada h3{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (min-width: 768px){
+    .divHome{
+        gap:9rem;
+    }
+
+    .divNombre{
+        padding: 2rem;
+    }
+    .divHomePortada{
+        width: 600px;
+        margin: 0 auto;
+    }
+    .divButtonHome{
+        grid-column-gap: 2.8rem;
+        grid-row-gap: 2.8rem;
+    }
+    .divButtonHome button {
+        font-size: large;
+        padding: 0.8rem;
+    }
+}
+    
+
+
+@media (min-width: 1024px){
+    .divHome {
+        gap: 2rem;
+    }
+    .divHomePortada{
+        padding-top: 2rem;
+    }
+    .divButtonHome{
+        display: flex;
+        padding-top: 1rem;
+        gap: 4rem;
+    }
+    .divButtonHome button {
+        font-size: large;
+        padding: 0.8rem 1.3rem;
+        letter-spacing: 1px;
+    }
+}
+
+@media (min-width: 1200px){
+
+    .divHome {
+        gap: 5rem;
+    }
+
+    .divNombre h1,
+    .divNombre h2{
+        margin: 0;
+    }
+
+    .divHomePortada{
+        width: 70%;
+        padding: 2% 0;
+
+    }
+
+    .divHomePortada h2{
+        margin: 0;
+        font-size: 4rem;
+        color: white;
+        font-weight: 500;
+    }
+
+    .divHomePortada h3{
+        color: white;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+    .divButtonHome{
+
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        margin: 0 auto;
+    }
+    .divButtonHome button{
+        font-size: x-large;
+        padding: 1rem 1.4rem;
+    }
+
+}
+@media (min-width: 1400px){
+    .divButtonHome{
+        gap: 4rem;
+    }
+}
