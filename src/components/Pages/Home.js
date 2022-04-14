@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../../scss/styles.scss'
+//import NavBar from '../navBar/NavBar'
+
 import AboutMe from './AboutMe'
 import Contacto from './Contacto'
 import Services from './Services'
@@ -10,13 +12,11 @@ import WorkWithMe from './WorkWithMe'
 const Home = () => {
   return (
     <div className='divHome'>       
-        <div className='divNombre'>
-            <h1>Matias Alonso </h1>
-            <h2>Front-End Developer</h2>
-        </div>
 
         <div className='divHomePortada'>
-            <h2>Memorable sites</h2>
+            <div>
+                <h2>Memorable sites</h2>
+            </div>
             <h3>In a world that increasingly turns to virtuality, it is important to have an impressive virtual presence. I can help you turn your site into a site that customers will remember.</h3>
         </div>
 

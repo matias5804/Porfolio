@@ -18,7 +18,8 @@ import imgPokemon from "../../assests/img/sliderPorfolio/pokemonResponsive.png"
 
 
 // import required modules
-import { EffectCube, Pagination} from "swiper";
+import { EffectCube, Navigation} from "swiper";
+
 
 
 export default function Carousel() {
@@ -33,9 +34,9 @@ export default function Carousel() {
           shadowOffset: 20,
           shadowScale: 0.94,
         }}
-
-        pagination={true}
-        modules={[EffectCube, Pagination]}
+        navigation={true}
+        
+        modules={[EffectCube, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>

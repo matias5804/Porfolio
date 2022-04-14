@@ -1,5 +1,6 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
+import NavBarDos from './components/navBar/NavBarDos'
 import AboutMe from './components/Pages/AboutMe'
 import Contacto from './components/Pages/Contacto'
 import Home from './components/Pages/Home'
@@ -10,6 +11,7 @@ const App = () => {
   return (
     <div>
         <BrowserRouter>
+        <NavBarDos/>
 
         <Routes> 
             <Route path="/" element={<Home greeting={'HOME'} />} />
@@ -17,6 +19,7 @@ const App = () => {
             <Route path="/Pages/Services" element={<Services/>}/>
             <Route path="/Pages/AboutMe" element={<AboutMe/>}/>
             <Route path="/Pages/WorkWithMe" element={<WorkWithMe/>}/>
+            <Route path="*" element={<Navigate to="/" />} />
 
         </Routes> 
   

@@ -2,12 +2,15 @@ import React from 'react'
 import '../../scss/styles.scss'
 import Carousel from '../carousel/Carousel'
 import "../carousel/carousel.css";
+import iconSkill from '../../assests/img/icons/iconSkill.png'
 
 const WorkWithMe = () => {
   return (
     <div className='divWorkWithMe'>
         <div className='divImgWork'>
-            <img src='' alt=''/>
+
+          <img src={iconSkill} alt='iconSkill'/>
+
         </div>
         <div className='work'>
             <h1>It's all about the message.</h1>

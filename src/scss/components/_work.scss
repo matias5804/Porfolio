@@ -21,7 +21,7 @@
 
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 30px;
         height: 900px;
 
 
@@ -29,7 +29,7 @@
     }
     .work h1{
         font-size: 3rem;
-        padding:1rem;
+        padding:1rem 0 0 0;
         font-weight: 400;
     }
     .work p{
@@ -39,17 +39,70 @@
     }
 
 
-@media (min-width: 1200px){
 
 
+
+@media (min-width: 1024px){
+    .divImgWork{
+        position: relative;
+        width: 50%;
+        height: 600px;
+    }
+    .divWorkWithMe{
+        flex-direction: row;
+        height: 600px;
+    }
+    .divImgWork img{
+        height: auto;
+        width: 100%;
+        bottom: 0px;
+        left: 0px;
+        position: absolute;
+    }
+    .work h1{
+        font-size: 2.25rem;
+    }
+
+    .work p{
+        font-size: 1.1rem;
+        padding: 0 1.5rem;
+
+    }
+    .work{
+        width: 50%;
+        gap: 30px;
+    }
+}
+@media (min-width: 1200px){     
+    .divImgWork{
+        height: 100vh;
+    }
+    .divWorkWithMe{
+        height: 100vh;
+    }
+        
+    .work{
+        width: 60%;
+        height: 100vh;
+    }
 
     .work h1{
-        font-size: 4rem;
+        font-size: 3.5rem;
+        padding: 1rem 1.5rem 0 1.5rem;
 
     }
 
     .work p{
-        font-size: 1.8rem;
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        padding: 0 3rem;
         font-weight: 300;
     }
 }
+
+@media (min-width: 1400px){  
+    .work h1 {
+        font-size: 3.5rem;
+        padding: 2rem 4.5rem 0 4.5rem;
+    }
+}    
