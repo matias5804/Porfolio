@@ -23,7 +23,7 @@ body {
 
 */
 .divHome{
-    background-image: url(../../assests/img/pictures/fondoHomeDosOpacity.jpg);
+    background-image: url(../../assests/img/pictures/fondoHome.jpg);
     background-position: center;
     background-size: cover;
     
@@ -60,6 +60,7 @@ body {
 .divHomePortada h2{
     font-size: 2.4rem;
     font-weight: 500;
+    color: white;
 }
 
 .divHomePortada h3{
@@ -68,7 +69,7 @@ body {
         letter-spacing: 2px;
         line-height: 1.2;
     font-weight: 500;
-    
+    color: white;
 }
 .divButtonHome{
     margin: 0 auto;
@@ -84,10 +85,17 @@ body {
     font-size: medium;
     padding: 0.6rem;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    background-color:rgba(0,0,0,0.5);
-    border: 1px solid white;
+    font-weight: 500;
+    background-color:rgba(0,0,0,0.35);
+    border: 2px solid white;
     color: white;
+}
+.divButtonHome button:hover{
+ color: black;
+ border: 2px solid black;
+ background-color: rgba(255, 255, 255, 0.327);
+ font-weight: 500;
+        
 }
 
 
@@ -134,7 +142,7 @@ body {
 
 @media (min-width: 1024px){
     .divHome {
-        gap: 4rem;
+        gap: 3rem;
 
     }
     .divHomePortada{
@@ -142,7 +150,7 @@ body {
     }
     .divButtonHome{
         display: flex;
-        padding-top: 1rem;
+        padding-top: 0;
         gap: 4rem;
     }
     .divButtonHome button {
@@ -155,6 +163,7 @@ body {
 @media (min-width: 1200px){
 
     .divHome {
+        padding-top: 14rem;
         gap: 5rem;
     }
 
@@ -183,16 +192,17 @@ body {
     }
 
     .divButtonHome{
-
         display: flex;
         flex-direction: row;
         gap: 2rem;
         margin: 0 auto;
     }
+
     .divButtonHome button{
         font-size: x-large;
         padding: 1rem 1.4rem;
     }
+
 
 }
 

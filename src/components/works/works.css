@@ -1,0 +1,85 @@
+.divProyects{
+    display: flex;
+    background-color: #d9d9d9;
+    height: 100vh;
+    width: 100%;
+    padding: 5%;
+    font-family: 'Montserrat' , sans-serif !important;
+
+}
+.divVideo{
+    width: 60%;
+    padding: 0 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+}
+.divVideo img{
+    width: 30rem;
+    height: auto;
+  
+}
+.videoWorks{
+    width: 100%;
+
+
+}
+.divInfo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: initial;
+
+}
+
+
+.divInfo button{
+    font-size: larger;
+    font-family: 'Montserrat';
+    width: 10rem;
+    height: 2.3rem;
+    margin: 0 auto;
+}
+
+.divInfo p{
+    letter-spacing: 0.08rem;
+    line-height: 1.4rem;  
+}
+
+.divInfo div h1{
+    font-size: xx-large;
+    padding: 0 0 1rem 0;
+}
+
+.divEliot,
+.moviesReact{
+    background-color:#1b1f24;
+}
+
+.divInfoEliot,
+.divInfoMovies{
+    color:white;
+}
+
+@media (min-width: 1200px){
+
+    .divInfo div h2{
+        font-size: 2.3rem;
+    }
+    .divInfo div h1 {
+        font-size: 3.5rem;
+    }
+    .divInfo p {
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        line-height: 1.7rem;
+    }    
+
+    .divInfo{
+        justify-content: space-around;
+    }
+}

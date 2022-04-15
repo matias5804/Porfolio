@@ -66,6 +66,9 @@ const NavBarDos = () => {
                     <h3>Front-End Developer</h3>
                 </div>
             </Link>
+            {/*/boton whatsApp modo fixd , te envia directoi al chat con una pestaña nueva/*/}
+            <a className='fixed-whatsapp' href="https://api.whatsapp.com/send?phone=541133554248'">
+            </a>
 
         </nav>
 
