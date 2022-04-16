@@ -1,9 +1,10 @@
 import React from 'react'
 import imgMoviesRespong from '../../assests/img/sliderPorfolio/moviesRespon.png'
+import videoMovies from '../../assests/movies/movies.mp4'
 
 const Movies = () => {
   return (
-    <div>
+    <div> 
         <div className='divProyects moviesReact'>
           <div className='divInfo divInfoMovies'>
               <div>
@@ -16,7 +17,7 @@ const Movies = () => {
           <div className='divVideo'>
 
               <video 
-              src={""}
+              src={videoMovies}
               className='videoWorks'
               
               autoPlay={"autoplay"}

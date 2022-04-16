@@ -1,5 +1,6 @@
 import React from 'react'
 import imgPokemonRespon from '../../assests/img/sliderPorfolio/pokemonRespon.png'
+import videoPokemon from '../../assests/movies/pokemon.mp4'
 
 const Pokemon = () => {
   return (
@@ -16,7 +17,7 @@ const Pokemon = () => {
             <div className='divVideo'>
 
                 <video 
-                src={""}
+                src={videoPokemon}
                 className='videoWorks'
                 
                 autoPlay={"autoplay"}

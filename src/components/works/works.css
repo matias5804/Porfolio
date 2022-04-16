@@ -5,35 +5,33 @@
     width: 100%;
     padding: 5%;
     font-family: 'Montserrat' , sans-serif !important;
-
 }
+
 .divVideo{
     width: 60%;
     padding: 0 5rem;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 3rem;
     align-items: center;
 }
+
 .divVideo img{
     width: 30rem;
     height: auto;
-  
 }
+
 .videoWorks{
     width: 100%;
-
-
 }
+
 .divInfo{
     width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: initial;
-
 }
 
 

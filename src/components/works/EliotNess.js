@@ -1,5 +1,6 @@
 import React from 'react'
 import imgEliotRespon from '../../assests/img/sliderPorfolio/eliotRespon.png'
+//import videoEliot from '../../assests/movies/eliot.gif'
 
 const EliotNess = () => {
   return (
