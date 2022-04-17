@@ -1,14 +1,12 @@
 import React,{useState} from 'react'
 import { Link } from 'react-router-dom'
-import AboutMe from '../Pages/AboutMe'
 import Contacto from '../Pages/Contacto'
 import Home from '../Pages/Home'
 import WorkWithMe from '../Pages/WorkWithMe'
 import './navBar.css'
 import fotoPerfil from '../../assests/img/pictures/fotoPerfilCircular.png'
 import Services from '../Pages/Services'
-import logoLinkedIn from '../../assests/img/icons/linkedInBlanco.png'
-import logoGitHub from '../../assests/img/icons/gitHubBlanco.png'
+
 
 
 const NavBarDos = () => {
@@ -40,10 +38,6 @@ const NavBarDos = () => {
                 </Link>
                 <Link to="../Pages/WorkWithMe" element={<WorkWithMe/>} className='nav__link linkMenu'>
                     <li className='nav__item'>Work With Me</li>
-                </Link>
-
-                <Link to="../Pages/AboutMe" element={<AboutMe/>} className='nav__link linkMenu'>
-                    <li className='nav__item '>About Me</li>
                 </Link>
 
                 <Link to="../Pages/Services" element={<Services/>} className='nav__link linkMenu'>

@@ -1,5 +1,6 @@
 import React from 'react'
 import imgGgtechRespon from '../../assests/img/sliderPorfolio/ggtechRespon.png'
+import videoGgtech from '../../assests/movies/ggtechTres.mp4'
 
 const Ggtech = () => {
   return (
@@ -16,7 +17,7 @@ const Ggtech = () => {
             <div className='divVideo'>
 
                 <video 
-                src={""}
+                src={videoGgtech}
                 className='videoWorks'
                 
                 autoPlay={"autoplay"}

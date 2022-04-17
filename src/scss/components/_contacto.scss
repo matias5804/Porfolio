@@ -1,0 +1,109 @@
+.divContacto{
+    width: 100%;
+    height: 100vh;
+    background-image:url(../../assests/img/pictures/contacto.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    z-index: 1;
+
+}
+#fondoContacto:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.3);
+    
+}
+
+.divTitleContacto h1{
+    color: white;
+    font-size: 3rem;
+    position: relative;
+}
+.divContactoContacto div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.51rem;
+}
+.divContactoContacto{
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 4rem 2rem 2rem;
+    gap: 1rem;
+    width: 25rem;
+}
+.divContactFollow{
+    display: flex;
+}
+
+.divFollow{
+
+    position: relative;
+    color: white;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.divFollow h1{
+    font-weight: 400;
+}
+.divFollow div h4{
+    display: flex;
+    flex-direction: column;
+    gap: 0.51rem;
+    color: white;
+    font-weight: 400;
+    text-align: start;
+
+}
+.divFollow div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.51rem;
+}
+
+.divTitleContacto{
+
+}
+.divContactFollow{
+    display: flex;
+}
+
+@media (min-width: 1200px){ 
+    .divTitleContacto h1{
+        font-size: 4.5rem;
+    }
+
+    .divContactoContacto{
+        width: 33rem;
+    }
+    .divContactoContacto h1{
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .divContactoContacto h4{
+        font-size:x-large;
+    }
+    .divFollow h1{
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    .divFollow h4{
+        font-size:x-large;
+    }
+
+}

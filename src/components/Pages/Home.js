@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import '../../scss/styles.scss'
 //import NavBar from '../navBar/NavBar'
 
-import AboutMe from './AboutMe'
 import Contacto from './Contacto'
 import Services from './Services'
 import WorkWithMe from './WorkWithMe'
@@ -24,10 +23,6 @@ const Home = () => {
 
             <Link to="/Pages/WorkWithMe" element={<WorkWithMe/>}>
                 <button>WORK WITH ME</button>
-            </Link>
-
-            <Link to="/Pages/AboutMe" element={<AboutMe/>}>
-                <button>ABOUT ME</button>
             </Link>
 
             <Link to="/Pages/Services" element={<Services/>}>

@@ -1,6 +1,6 @@
 import React from 'react'
 import imgEliotRespon from '../../assests/img/sliderPorfolio/eliotRespon.png'
-//import videoEliot from '../../assests/movies/eliot.gif'
+import videoEliot from '../../assests/movies/eliot.mp4'
 
 const EliotNess = () => {
   return (
@@ -17,7 +17,7 @@ const EliotNess = () => {
           <div className='divVideo'>
 
               <video 
-              src={""}
+              src={videoEliot}
               className='videoWorks'
               
               autoPlay={"autoplay"}

@@ -1,5 +1,6 @@
 import React from 'react'
 import imgLtatooRespon from '../../assests/img/sliderPorfolio/lTatooRespon.png'
+import videoLt from '../../assests/movies/lT.mp4'
 
 const LTatoo = () => {
   return (
@@ -16,7 +17,7 @@ const LTatoo = () => {
             <div className='divVideo'>
 
                 <video 
-                src={""}
+                src={videoLt}
                 className='videoWorks'
                 
                 autoPlay={"autoplay"}
