@@ -5,8 +5,8 @@ import videoPokemon from '../../assests/movies/pokemon.mp4'
 const Pokemon = () => {
   return (
     <div>
-              <div className='divProyects'>
-            <div className='divInfo'>
+      <div className='divProyects proyectPoke'>
+            <div className='divInfo divInfoPoke'>
                 <div>
                     <h1>Pokemon</h1>
                     <h2>Personal Pokedex</h2>

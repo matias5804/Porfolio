@@ -1,0 +1,46 @@
+.fondoCv{
+    border: 5px solid black;
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding-bottom: 3rem;
+}
+
+.fondoCv div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 8%;
+}
+
+.fondoCv img{
+    padding:0 3rem;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.linkCv,
+.fondoCv a{
+    font-size: medium;
+    padding: 0.6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background-color:rgba(0,0,0,0.35);
+    border: 2px solid white;
+    color: white;
+}
+.linkCv:hover,
+.fondoCv a:hover{
+    color: black;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.327);
+    font-weight: 500;
+}
+
+@media (min-width: 1200px){
+    .fondoCv img{
+        width: 70%;
+    }
+}

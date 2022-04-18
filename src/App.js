@@ -3,6 +3,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import NavBarDos from './components/navBar/NavBarDos'
 
 import Contacto from './components/Pages/Contacto'
+import Cv from './components/Pages/Cv'
 import Home from './components/Pages/Home'
 import Services from './components/Pages/Services'
 import WorkWithMe from './components/Pages/WorkWithMe'
@@ -18,6 +19,7 @@ const App = () => {
             <Route path="/Pages/Contacto" element={<Contacto/>}/>
             <Route path="/Pages/Services" element={<Services/>}/>
             <Route path="/Pages/WorkWithMe" element={<WorkWithMe/>}/>
+            <Route path="/Pages/Cv" element={<Cv/>}/>
             <Route path="*" element={<Navigate to="/" />} />
 
         </Routes> 

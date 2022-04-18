@@ -6,6 +6,12 @@
     padding: 5%;
     font-family: 'Montserrat' , sans-serif !important;
 }
+.proyectPoke{
+    background-color: rgb(34, 35, 46);
+}
+.divInfoPoke{
+    color: white;
+}
 
 .divVideo{
     width: 60%;

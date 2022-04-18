@@ -4,6 +4,7 @@ import '../../scss/styles.scss'
 //import NavBar from '../navBar/NavBar'
 
 import Contacto from './Contacto'
+import Cv from './Cv'
 import Services from './Services'
 import WorkWithMe from './WorkWithMe'
 
@@ -29,10 +30,14 @@ const Home = () => {
                <button>SERVICES</button>
             </Link>
 
-
             <Link to="/Pages/Contacto" element={<Contacto/>}>
                 <button>CONTACT</button>
             </Link>
+
+            <Link to="/Pages/Cv" element={<Cv/>}>
+                <button>VER CV</button>
+            </Link>
+            
         </div>
 
 

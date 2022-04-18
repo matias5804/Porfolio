@@ -64,9 +64,9 @@ a{
 
 .divNombre{
     display: flex;
-    flex-direction: initial;
-    gap: 1rem;
-    align-items: flex-end;
+    flex-direction: column;
+
+    align-items: flex-start;
 }
 
 /* Active Class */
@@ -91,6 +91,7 @@ a{
     z-index: 3;
     transform: rotate(45deg) translate(-4px, -5px);
   }
+  
 .divGitLink{
     display: flex;
     flex-direction: column;
@@ -110,10 +111,12 @@ a{
     height: 53px;
     width: 80%;   
 }
+
 .divGitHub:hover{
     background-image: url(../../assests/img/icons/gitHubNegro.png);
     cursor: pointer;
 }
+
 .divLinked{
     background-image: url(../../assests/img/icons/linkedInBlanco.png);
     background-size: cover;

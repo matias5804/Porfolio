@@ -6,6 +6,7 @@ import WorkWithMe from '../Pages/WorkWithMe'
 import './navBar.css'
 import fotoPerfil from '../../assests/img/pictures/fotoPerfilCircular.png'
 import Services from '../Pages/Services'
+import Cv from '../Pages/Cv'
 
 
 
@@ -25,17 +26,20 @@ const NavBarDos = () => {
   return (
 
 
-        <nav className='nav'>        
+        <nav className='nav'>     
+           
             <div onClick={navToggle} className={icon}>
                 <div className="line1"></div>
                 <div className="line2"></div>
                 <div className="line3"></div>
             </div>
+
             <ul className={active}>
                 <img src={fotoPerfil} alt=''/>
                 <Link to="/" element={<Home/>} className='nav__link linkMenu'>
                     <li className='nav__item'>Home</li>
                 </Link>
+                
                 <Link to="../Pages/WorkWithMe" element={<WorkWithMe/>} className='nav__link linkMenu'>
                     <li className='nav__item'>Work With Me</li>
                 </Link>
@@ -48,18 +52,24 @@ const NavBarDos = () => {
                     <li className='nav__item'>Contact  </li>
                 </Link>
 
+                <Link to="../Pages/Cv" element={<Cv/>} className='nav__link linkMenu'>
+                    <li className='nav__item'>Ver CV  </li>
+                </Link>
+
                 <div className='divGitLink'>
                     <div className='divGitHub'></div>
                     <div className='divLinked'></div>
-
                 </div>
+
             </ul>
+
             <Link to="/">
                 <div className='divNombre'>
                     <h1>Matias Alonso </h1>
-                    <h3>Front-End Developer</h3>
+                    <h5>Front-End Developer</h5>
                 </div>
             </Link>
+
             {/*/boton whatsApp modo fixd , te envia directoi al chat con una pestaña nueva/*/}
             <a className='fixed-whatsapp' href="https://api.whatsapp.com/send?phone=541133554248'">
             </a>
