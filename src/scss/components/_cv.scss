@@ -3,10 +3,10 @@
     height: auto;
     width: 100%;
     position: relative;
-    padding-bottom: 3rem;
+
 }
 
-.fondoCv div{
+.divFondoCv{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@
 }
 
 .linkCv,
-.fondoCv a{
+.descargarCv{
     font-size: medium;
     padding: 0.6rem;
     font-family: 'Montserrat', sans-serif;
@@ -32,7 +32,7 @@
     color: white;
 }
 .linkCv:hover,
-.fondoCv a:hover{
+.descargarCv:hover{
     color: black;
     border: 2px solid black;
     background-color: rgba(255, 255, 255, 0.327);

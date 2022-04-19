@@ -1,5 +1,9 @@
+
+import {  WhatsAppOutlined,MailOutlined ,LinkedinOutlined ,GithubOutlined } from '@ant-design/icons';
 import React from 'react'
 import { Link } from 'react-router-dom'
+
+
 
 const Contacto = () => {
   return (
@@ -15,8 +19,9 @@ const Contacto = () => {
           <h1>Contact</h1>
 
           <div>
-            <h4>matiasalonso88@gmail.com</h4>
-            <h4>whatsApp +54 9 11 3355-4248</h4>
+
+            <h3><MailOutlined className='iconContact' />  matiasalonso88@gmail.com</h3>
+            <h3><WhatsAppOutlined className='iconContact'/>  +54 9 11 3355-4248</h3>
           </div>
 
         </div>
@@ -24,19 +29,18 @@ const Contacto = () => {
         <div className='divFollow'>
 
           <h1>Follow</h1>
-          <div>
-            <Link to={""}>
-              <h4>LinkedIn</h4>
+          <div className='divRedesContacto'>
+            <a target='_blank' rel='noreferrer' href='https://github.com/matias5804'>
             
-            </Link>
-            <Link to={""}>
-              <h4>GitHub</h4>
+              <GithubOutlined className='iconContact' style={{color:'white'}} />
+              <h3>GitHub</h3>
+            </a>
             
-            </Link>
-
+            <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/matiasmalonso/'>
+              <LinkedinOutlined className='iconContact' style={{color:'white'}} />
+              <h3>LinkedIn</h3>
+            </a> 
           </div>
-
-
         </div>
       </div>
     </div>

@@ -12,7 +12,11 @@ const EliotNess = () => {
                   <h2>Beer Factory</h2>
               </div>
               <p>Vidya is a project that was born with the intention of raising awareness through greater understanding about sustainability and care for the environment on a daily basis. It not only seeks to market ecological and sustainable products but also aims to inform and teach users about the different habits that can be adopted, from consumption to recycling, to encourage societies to be more respectful of the environment and more aware of what they consume.</p>
-              <button>Visit the Site</button>
+              <div className='btnsWorks'>
+                <button>Visit the Site</button>
+                <button>See GitHub</button>
+
+              </div>
           </div>
           <div className='divVideo'>
 

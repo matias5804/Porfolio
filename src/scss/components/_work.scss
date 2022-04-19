@@ -8,7 +8,7 @@
 
 
     .divImgWork{
-        background-image: url(../../assests/img/pictures/fondoHomeDosOpacity.jpg);
+        background-image: url(../../assests/img/pictures/fondoHomeBN.jpg);
         background-position: center;
         background-size: cover;
         width: 100%;
@@ -18,27 +18,43 @@
 
     .work{
         color: white;
-
         display: flex;
         flex-direction: column;
         gap: 30px;
         height: 900px;
-
-
-
+        position: relative;
+        width: 60%;
     }
+
     .work h1{
         font-size: 3rem;
         padding:1rem 0 0 0;
         font-weight: 400;
     }
+
     .work p{
         font-size: 1.4rem;
         font-weight: 300;
         padding: 1rem;
     }
 
-
+    .divInfo button{
+        font-size: medium;
+        padding: 0.6rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        background-color:rgba(0,0,0,0.35);
+        border: 3px solid white;
+        color: white;
+    }
+    .divInfo button:hover{
+     color: black;
+     border: 3px solid black;
+     background-color: rgba(255, 255, 255, 0.327);
+     font-weight: 500;
+     cursor: pointer;
+            
+    }
 
 
 
@@ -52,12 +68,13 @@
         flex-direction: row;
         height: 600px;
     }
-    .divImgWork img{
+    .imgSkills{
         height: auto;
         width: 100%;
-        bottom: 0px;
+        bottom: 34%;
         left: 0px;
         position: absolute;
+        padding: 1rem 10rem 1rem 2rem;
     }
     .work h1{
         font-size: 2.25rem;
@@ -69,8 +86,8 @@
 
     }
     .work{
-        width: 50%;
-        gap: 30px;
+        width: 60%;
+        gap: 45px;
     }
 }
 @media (min-width: 1200px){     
@@ -80,7 +97,9 @@
     .divWorkWithMe{
         height: 100vh;
     }
-        
+    .imgSkills{
+        bottom: 0%;
+    }    
     .work{
         width: 60%;
         height: 100vh;

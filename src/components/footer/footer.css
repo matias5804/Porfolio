@@ -1,9 +1,17 @@
 .footer{
-    background-color: rgb(59, 54, 54);
+    background-color: rgb(34, 35, 46);
     color: white;
     display: flex;
     justify-content: center;
-    height: 20rem;
+    height: 25rem;
+    position: relative;
+}
+.footerCV{
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 25rem;
 }
 
 .divGitHubFooter{
@@ -34,19 +42,22 @@
 
 .divGitLinkFooter{
     display: flex;
-    flex-direction: column;
-
-    margin-top: 1.5rem;
-    width: 54%;
+    width: 30%;
     position: absolute;
-    right: -16%;
-}
+    right: 8%;
+    bottom:5%;
 
+}
+.fDos{
+    bottom:20%;
+}
 .ulFooter{
 
- margin: 1rem 3rem;
+ margin: 5rem 3rem;
  position: absolute;
- left: 25%;
+ left: 5%;
+ bottom: 0;
+ display: flex;
 
 }
 
@@ -64,9 +75,10 @@
     text-decoration-line: underline;
 
     text-decoration-color: white;
-
     padding-bottom: 15px;
 
+    border-bottom-width: 3.1px;
+    width: fit-content;
 }
 .LinkMenuFooter:hover::before {
     transform-origin: left;
@@ -110,4 +122,16 @@
 .viewMore:hover::before {
     transform-origin: left;
     transform: scaleX(1);
+}
+
+
+.footerDos{
+    background-image: url(../../assests/img/icons/montaniaFooter.png);
+    background-size: cover;
+    width: 100%;
+    bottom: 0%;
+}
+.linkLinkedFooter{
+    width: 18rem;
+
 }

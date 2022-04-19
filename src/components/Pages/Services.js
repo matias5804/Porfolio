@@ -1,5 +1,5 @@
 import React from 'react'
-import skills from'../../assests/img/icons/iconSkillDosD.png'
+import skills from'../../assests/img/icons/iconSkillClaro.png'
 
 const Services = () => {
   return (

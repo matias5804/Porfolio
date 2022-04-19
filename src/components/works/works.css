@@ -12,6 +12,9 @@
 .divInfoPoke{
     color: white;
 }
+.divImgWork div{
+    background-color: rgba(255, 255, 255, 0.5)
+}
 
 .divVideo{
     width: 60%;
@@ -45,7 +48,7 @@
     font-size: larger;
     font-family: 'Montserrat';
     width: 10rem;
-    height: 2.3rem;
+
     margin: 0 auto;
 }
 
@@ -69,6 +72,10 @@
     color:white;
 }
 
+.btnsWorks{
+    display: flex;
+    
+}
 @media (min-width: 1200px){
 
     .divInfo div h2{

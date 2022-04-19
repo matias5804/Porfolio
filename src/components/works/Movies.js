@@ -9,10 +9,14 @@ const Movies = () => {
           <div className='divInfo divInfoMovies'>
               <div>
                   <h1>Movies React</h1>
-                  <h2>Looking your Movie</h2>
+                  <h2>Search for movies</h2>
               </div>
               <p>This API was built with React js. The functionality of this website is to search for movies of any type and industry, by typing the name or part of the name. The movies are sourced from a server, in addition to the details and description of each movie. The API has its own styles in CSS</p>
-              <button>Visit the Site</button>
+              <div className='btnsWorks'>
+                <button>Visit the Site</button>
+                <button>See GitHub</button>
+
+              </div>
           </div>
           <div className='divVideo'>
 

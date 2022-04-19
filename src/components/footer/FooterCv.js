@@ -7,9 +7,9 @@ import WorkWithMe from '../Pages/WorkWithMe'
 import Cv from '../Pages/Cv'
 import Services from '../Pages/Services'
 
-const Footer = () => {
+const FooterCv = () => {
   return (
-    <div className='footer'>
+    <div className='footerCV'>
         <div className='footerDos'>
 
             <ul className="ulFooter">
@@ -30,14 +30,14 @@ const Footer = () => {
                 </Link>
 
                 <Link to="../Pages/Cv" element={<Cv/>} className=' linkMenuFooter'>
-                    <li className='nav__item '>Resume</li>
+                    <li className='nav__item'>Resume</li>
                 </Link>
             </ul>
             
-            <div className='divGitLinkFooter fDos'>
+            <div className='divGitLinkFooter'>
                 <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/matiasmalonso/' className='linkLinkedFooter'>
 
-                    <div className='divLinked'/>   
+                 <div className='divLinked'/>   
                 </a>
                 <a target='_blank' rel='noreferrer' href='https://github.com/matias5804' className='linkLinkedFooter'>
 
@@ -49,4 +49,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default FooterCv

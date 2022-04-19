@@ -41,7 +41,7 @@ const NavBarDos = () => {
                 </Link>
                 
                 <Link to="../Pages/WorkWithMe" element={<WorkWithMe/>} className='nav__link linkMenu'>
-                    <li className='nav__item'>Work With Me</li>
+                    <li className='nav__item'>Work with me</li>
                 </Link>
 
                 <Link to="../Pages/Services" element={<Services/>} className='nav__link linkMenu'>
@@ -53,17 +53,25 @@ const NavBarDos = () => {
                 </Link>
 
                 <Link to="../Pages/Cv" element={<Cv/>} className='nav__link linkMenu'>
-                    <li className='nav__item'>Ver CV  </li>
+                    <li className='nav__item'>Resume</li>
                 </Link>
 
                 <div className='divGitLink'>
-                    <div className='divGitHub'></div>
-                    <div className='divLinked'></div>
+                   
+                        
+                    <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/matiasmalonso/' className='linkLinked'>
+
+                     <div className='divLinked'/>   
+                    </a>
+                    <a target='_blank' rel='noreferrer' href='https://github.com/matias5804' className='linkLinked'>
+
+                     <div className='divGitHub'></div>
+                    </a>
                 </div>
 
             </ul>
 
-            <Link to="/">
+            <Link to="../Pages/Home">
                 <div className='divNombre'>
                     <h1>Matias Alonso </h1>
                     <h5>Front-End Developer</h5>

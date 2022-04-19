@@ -43,15 +43,15 @@ export default function Carousel() {
           <img src={imgEliot} className="imgSlider" alt=""/>  
 
           <div className="divTitleBtnSlider">
-            <h3>Cervecería Eliot Ness</h3>
-            <button>Ver Más</button>
+            <h3>Beer Factory Eliot Ness</h3>
+            <button>More Info</button>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={imgVidya} alt="" className="imgSlider"/>
           <div className="divTitleBtnSlider">
-            <h3>Vidya Sustentable</h3>
-            <button>Ver Más</button>
+            <h3>Vidya E-commerce</h3>
+            <button>More Info</button>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -59,7 +59,7 @@ export default function Carousel() {
           
           <div className="divTitleBtnSlider">
             <h3>LT - Equipment</h3>
-            <button>Ver Más</button>
+            <button>More Info</button>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -67,7 +67,7 @@ export default function Carousel() {
           
           <div className="divTitleBtnSlider">
             <h3>Movies with React</h3>
-            <button>Ver Más</button>
+            <button>More Info</button>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -75,15 +75,15 @@ export default function Carousel() {
           
           <div className="divTitleBtnSlider">
             <h3 >Pokemons with React</h3>
-            <button>Ver Más</button>
+            <button>More Info</button>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={imgGgtech} alt="" className="imgSlider"/>
           
           <div className="divTitleBtnSlider">
-            <h3>Desafío Gg-tech</h3>
-            <button>Ver Más</button>
+            <h3>Challenge Gg-tech</h3>
+            <button>More Info</button>
           </div>
         </SwiperSlide>
       </Swiper>

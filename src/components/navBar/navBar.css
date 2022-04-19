@@ -15,9 +15,14 @@ a{
     top: 0;
     z-index: 3;
 }
+
 .nav__menu img{
     width: 8vw;
     margin: 40px;
+}
+.linkLinked{
+    width: 14rem;
+    padding-left: 15%;
 }
 
 .nav__menu{
@@ -161,7 +166,7 @@ a{
 @media (min-width: 1200px){
     .divGitLink{
         margin-top:3rem ;
-        gap: 2rem;
+
     }
     .nav__menu{
         padding-top: 3rem;
