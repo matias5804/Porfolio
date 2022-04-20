@@ -101,8 +101,7 @@ body {
     }
 
     .divHomePortada{
-        padding-top: 4rem;
-        gap: 30px;
+        gap: 2rem;
     }
 
     .divHomePortada h2{
@@ -145,7 +144,7 @@ body {
     }
 
     .divHomePortada{
-        padding-top: 10rem;
+        padding-top: 6rem;
     }
 
     .divButtonHome{
@@ -164,7 +163,7 @@ body {
 @media (min-width: 1200px){
 
     .divHome {
-        padding-top: 14rem;
+        padding-top: 9rem;
         gap: 5rem;
     }
 
@@ -174,20 +173,20 @@ body {
     }
 
     .divHomePortada{
-        width: 70%;
-        padding: 2% 0;
+        width: 65%;
+        padding: 1% 0;
     }
 
     .divHomePortada h2{
         margin: 0;
-        font-size: 4rem;
+        font-size: 3.5rem;
         color: white;
         font-weight: 500;
     }
 
     .divHomePortada h3{
         color: white;
-        font-size: 2rem;
+        font-size: 1.7rem;
         font-weight: 300;
     }
 
@@ -198,14 +197,10 @@ body {
         margin: 0 auto;
     }
 
-    .divButtonHome button{
-        font-size: x-large;
-        padding: 1rem 1.4rem;
-    }
 }
 
 @media (min-width: 1400px){
     .divButtonHome{
         gap: 4rem;
     }
-}
+}   

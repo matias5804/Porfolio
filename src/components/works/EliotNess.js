@@ -12,7 +12,7 @@ const EliotNess = () => {
             <h2>Beer Factory</h2>
           </div>
 
-          <p>The Eliot Ness brewery project was born with the intention of providing the brewery with a virtual store in order to continue growing within the industry and be able to control all sales and stock from the website itself. The project was developed in React Js, it has a responsive design with styles and animations in CSS (SaaS), and external libraries are consumed for some of the sections.<br/>The virtual store has its functional shopping cart, ending with its corresponding order form which is sent directly via email.<br/>The content of the site was provided and developed together with the client.</p>
+          <p>The Eliot Ness brewery project was born with the intention of providing the brewery with a virtual store in order to continue growing within the industry and be able to control all sales and stock from the website itself. The project was developed in React Js, it has a responsive design with styles and animations in CSS (SaaS), and external libraries are consumed for some of the sections.<br/>The virtual store has its functional shopping cart, ending with its corresponding order form which is sent directly via email.</p>
 
           <div className='btnsWorks'>
             <a href='https://matias5804.github.io/EliotNess/' target="_blank" rel='noreferrer'>

@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 5rem;
+    gap: 3rem;
     z-index: 1;
 }
 
@@ -102,15 +102,15 @@
 
 @media (min-width: 1200px){ 
     .divTitleContacto h1{
-        font-size: 4.5rem;
+        font-size: 3.8rem;
     }
 
     .divContactoContacto{
-        width: 33rem;
+        width: 26rem;
     }
 
     .divContactoContacto h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 500;
     }
 
@@ -119,7 +119,7 @@
     }
 
     .divFollow h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 400;
     }
 
