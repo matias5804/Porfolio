@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/Porfolio/static/css/main.dda80817.css",
+    "main.js": "/Porfolio/static/js/main.2fb85a35.js",
+    "static/media/movies.mp4": "/Porfolio/static/media/movies.9d8ec60ef837dc7665d3.mp4",
+    "static/media/vidya.mp4": "/Porfolio/static/media/vidya.fb2f8252aa6d082240c9.mp4",
+    "static/media/eliot.mp4": "/Porfolio/static/media/eliot.ddff96ba2147a69a2c87.mp4",
+    "static/media/lT.mp4": "/Porfolio/static/media/lT.35aae73e3563fafd6022.mp4",
+    "static/media/fondoHome.jpg": "/Porfolio/static/media/fondoHome.96bd0dc331dcae11b94c.jpg",
+    "static/media/contacto.jpg": "/Porfolio/static/media/contacto.3b2db96aa79839f6faa6.jpg",
+    "static/media/tatooResponsive.png": "/Porfolio/static/media/tatooResponsive.182e74f439543143a1b9.png",
+    "static/media/moviesResponsive.png": "/Porfolio/static/media/moviesResponsive.5493db6bd5f354e98bd4.png",
+    "static/media/eliotResponsive.png": "/Porfolio/static/media/eliotResponsive.6851fe8690fb5d153b6e.png",
+    "static/media/fondoHomeBN.jpg": "/Porfolio/static/media/fondoHomeBN.614c09937124ab51d69a.jpg",
+    "static/media/eliotRespon.png": "/Porfolio/static/media/eliotRespon.0353a1ecffeee9ab9eb7.png",
+    "static/media/ggtechTres.mp4": "/Porfolio/static/media/ggtechTres.d305395f270ec74003c6.mp4",
+    "static/media/lTatooRespon.png": "/Porfolio/static/media/lTatooRespon.882c3da0ace9e7e1e26e.png",
+    "static/media/vidyaResponsive.png": "/Porfolio/static/media/vidyaResponsive.dd32d5836060c739d0b8.png",
+    "static/media/ggtechResponsive.png": "/Porfolio/static/media/ggtechResponsive.dd5bd1b27d0ce483c646.png",
+    "static/media/moviesRespon.png": "/Porfolio/static/media/moviesRespon.cebf5d81a52b93294b06.png",
+    "static/media/pokemon.mp4": "/Porfolio/static/media/pokemon.f5f001107f0c0c544063.mp4",
+    "static/media/ggtechRespon.png": "/Porfolio/static/media/ggtechRespon.05f7d716beaa4511e809.png",
+    "static/media/vidyaRespon.png": "/Porfolio/static/media/vidyaRespon.b1cfdf06d54928a01540.png",
+    "static/media/cvIngles.jpg": "/Porfolio/static/media/cvIngles.1a2e3371e994cae4deac.jpg",
+    "static/media/pokemonResponsive.png": "/Porfolio/static/media/pokemonResponsive.78d5e7c2c808bce1f002.png",
+    "static/media/pokemonRespon.png": "/Porfolio/static/media/pokemonRespon.6b4f1f4508bfd46e3810.png",
+    "static/media/cvEspañol.jpg": "/Porfolio/static/media/cvEspañol.21c3501e8168d7fd881f.jpg",
+    "static/media/fotoPerfilCircular.png": "/Porfolio/static/media/fotoPerfilCircular.6298afaf546c612a3e5d.png",
+    "static/media/serviciosClaro.jpg": "/Porfolio/static/media/serviciosClaro.a6409c73c7591455d396.jpg",
+    "static/media/iconSkillClaro.png": "/Porfolio/static/media/iconSkillClaro.4e6c54100c0afcfdb192.png",
+    "static/media/montaniaFooter.png": "/Porfolio/static/media/montaniaFooter.a05f5de684f3c1300389.png",
+    "static/media/GitHubLogoNNegro.png": "/Porfolio/static/media/GitHubLogoNNegro.162acbd6c86df1ddba9c.png",
+    "static/media/GitHubLogoNBlanco.png": "/Porfolio/static/media/GitHubLogoNBlanco.b52e5972026b8cbd9567.png",
+    "static/media/linkedInBlanco.png": "/Porfolio/static/media/linkedInBlanco.056445184c49750ada6a.png",
+    "index.html": "/Porfolio/index.html",
+    "main.dda80817.css.map": "/Porfolio/static/css/main.dda80817.css.map",
+    "main.2fb85a35.js.map": "/Porfolio/static/js/main.2fb85a35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dda80817.css",
+    "static/js/main.2fb85a35.js"
+  ]
+}
