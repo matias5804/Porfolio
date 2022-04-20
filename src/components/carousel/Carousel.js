@@ -44,14 +44,18 @@ export default function Carousel() {
 
           <div className="divTitleBtnSlider">
             <h3>Beer Factory Eliot Ness</h3>
-            <button>More Info</button>
+            <a href="#eliot">
+              <button>More Info</button>  
+            </a>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={imgVidya} alt="" className="imgSlider"/>
           <div className="divTitleBtnSlider">
             <h3>Vidya E-commerce</h3>
-            <button>More Info</button>
+            <a href="#vidya">
+              <button>More Info</button>  
+            </a>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -59,7 +63,9 @@ export default function Carousel() {
           
           <div className="divTitleBtnSlider">
             <h3>LT - Equipment</h3>
-            <button>More Info</button>
+            <a href="#tatoo">
+              <button>More Info</button>  
+            </a>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -67,7 +73,9 @@ export default function Carousel() {
           
           <div className="divTitleBtnSlider">
             <h3>Movies with React</h3>
-            <button>More Info</button>
+            <a href="#movies">
+              <button>More Info</button>  
+            </a>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -75,7 +83,9 @@ export default function Carousel() {
           
           <div className="divTitleBtnSlider">
             <h3 >Pokemons with React</h3>
-            <button>More Info</button>
+            <a href="#pokemon">
+              <button>More Info</button>  
+            </a>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -83,7 +93,9 @@ export default function Carousel() {
           
           <div className="divTitleBtnSlider">
             <h3>Challenge Gg-tech</h3>
-            <button>More Info</button>
+            <a href="#ggtech">
+              <button>More Info</button>  
+            </a>
           </div>
         </SwiperSlide>
       </Swiper>

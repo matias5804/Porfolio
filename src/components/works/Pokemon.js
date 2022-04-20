@@ -4,18 +4,21 @@ import videoPokemon from '../../assests/movies/pokemon.mp4'
 
 const Pokemon = () => {
   return (
-    <div>
+    <div id='pokemon'>
       <div className='divProyects proyectPoke'>
             <div className='divInfo divInfoPoke'>
                 <div>
                     <h1>Pokemon</h1>
                     <h2>Personal Pokedex</h2>
                 </div>
-                <p>Vidya is a project that was born with the intention of raising awareness through greater understanding about sustainability and care for the environment on a daily basis. It not only seeks to market ecological and sustainable products but also aims to inform and teach users about the different habits that can be adopted, from consumption to recycling, to encourage societies to be more respectful of the environment and more aware of what they consume.</p>
-              <div className='btnsWorks'>
-                <button>Visit the Site</button>
-                <button>See GitHub</button>
-
+                <p>This is the Poke Api I developed in React, with CSS styles and responsive design for Mobile, Tablet and PC. All the information comes directly from the official pokeApi page, which can be filtered and sorted according to the user's wishes in my Api. The pokeApi contains a Pokémon search engine. Favorites can be selected, and it also has pagination.</p>
+                <div className='btnsWorks'>
+                <a href='https://matias5804.github.io/pokedexReact/' target="_blank" rel='noreferrer'>
+                  <button>Visit the Site</button>
+                </a> 
+                <a href='https://github.com/matias5804/pokedexReact.git' target="_blank" rel='noreferrer'>
+                 <button>See GitHub</button>
+                </a>
               </div>
             </div>
             <div className='divVideo'>

@@ -2,10 +2,7 @@
         background-color: #1b1f24;
         display: flex;
         flex-direction: column-reverse;
-
-
     }
-
 
     .divImgWork{
         background-image: url(../../assests/img/pictures/fondoHomeBN.jpg);
@@ -15,13 +12,11 @@
         height: 200px;
     }
 
-
     .work{
         color: white;
         display: flex;
         flex-direction: column;
         gap: 30px;
-        height: 900px;
         position: relative;
         width: 60%;
     }
@@ -47,16 +42,14 @@
         border: 3px solid white;
         color: white;
     }
+
     .divInfo button:hover{
-     color: black;
-     border: 3px solid black;
-     background-color: rgba(255, 255, 255, 0.327);
-     font-weight: 500;
-     cursor: pointer;
-            
+        color: black;
+        border: 3px solid black;
+        background-color: rgba(255, 255, 255, 0.327);
+        font-weight: 500;
+        cursor: pointer;
     }
-
-
 
 @media (min-width: 1024px){
     .divImgWork{
@@ -64,18 +57,21 @@
         width: 50%;
         height: 600px;
     }
+
     .divWorkWithMe{
         flex-direction: row;
         height: 600px;
     }
+
     .imgSkills{
         height: auto;
         width: 100%;
-        bottom: 34%;
+        bottom: 0%;
         left: 0px;
         position: absolute;
-        padding: 1rem 10rem 1rem 2rem;
+        padding: 0rem 8rem 0rem 5rem;
     }
+
     .work h1{
         font-size: 2.25rem;
     }
@@ -83,32 +79,36 @@
     .work p{
         font-size: 1.1rem;
         padding: 0 1.5rem;
-
     }
+
     .work{
         width: 60%;
-        gap: 45px;
+        gap: 2rem;
     }
 }
 @media (min-width: 1200px){     
     .divImgWork{
         height: 100vh;
     }
+
     .divWorkWithMe{
         height: 100vh;
     }
+
     .imgSkills{
         bottom: 0%;
+        padding: 0rem 9rem 0rem 5rem;
     }    
+
     .work{
         width: 60%;
         height: 100vh;
+        gap: 3rem;
     }
 
     .work h1{
         font-size: 3.5rem;
         padding: 1rem 1.5rem 0 1.5rem;
-
     }
 
     .work p{
@@ -123,5 +123,8 @@
     .work h1 {
         font-size: 3.5rem;
         padding: 2rem 4.5rem 0 4.5rem;
+    }
+    .work{
+        gap: 4rem;
     }
 }    

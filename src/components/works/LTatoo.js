@@ -4,18 +4,21 @@ import videoLt from '../../assests/movies/lT.mp4'
 
 const LTatoo = () => {
   return (
-    <div>
+    <div id='tatoo'>
               <div className='divProyects'>
             <div className='divInfo'>
               <div>
                 <h1>LT</h1>
                 <h2>Tatoo Equipment</h2>
               </div>
-              <p>Vidya is a project that was born with the intention of raising awareness through greater understanding about sustainability and care for the environment on a daily basis. It not only seeks to market ecological and sustainable products but also aims to inform and teach users about the different habits that can be adopted, from consumption to recycling, to encourage societies to be more respectful of the environment and more aware of what they consume.</p>
+              <p>The LT Equipment virtual store is created with the idea of expanding the business and increasing the audience. It is developed in React Js and designed for Mobile, Tablet and PC, with animations in CSS (SaaS).<br/>The site has sections for products, customers and contact.</p>
               <div className='btnsWorks'>
-                <button>Visit the Site</button>
-                <button>See GitHub</button>
-
+                <a href='https://matias5804.github.io/luchotattoo/' target="_blank" rel='noreferrer'>
+                  <button>Visit the Site</button>
+                </a> 
+                <a href='https://github.com/matias5804/luchotattoo.git' target="_blank" rel='noreferrer'>
+                 <button>See GitHub</button>
+                </a>
               </div>
             </div>
             <div className='divVideo'>

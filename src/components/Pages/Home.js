@@ -35,7 +35,7 @@ const Home = () => {
             </Link>
 
             <Link to="/Pages/Cv" element={<Cv/>}>
-                <button>VER CV</button>
+                <button>RESUME</button>
             </Link>
             
         </div>

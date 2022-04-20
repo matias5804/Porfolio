@@ -74,6 +74,7 @@
 
 .btnsWorks{
     display: flex;
+    gap: 2rem;
     
 }
 @media (min-width: 1200px){
