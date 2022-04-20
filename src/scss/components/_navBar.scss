@@ -2,11 +2,13 @@
     width: 50px;
     cursor: pointer;
 }
+
 .icono-menu{
     position: absolute;
     top: 0;
     left: 0;
 }
+
 .cont-menu{
     background-color: rgb(42,42,42);
     box-shadow: 2px 0px 5px 2px rgb(66,66,66);
@@ -40,7 +42,6 @@
 /**** Estilos para agregar JavassScript *////////////////////////
 .active{
     transform: translate(-600px);
-
 }
 
 .opacity{

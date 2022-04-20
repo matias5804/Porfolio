@@ -16,11 +16,8 @@ import imgTatoo from "../../assests/img/sliderPorfolio/tatooResponsive.png"
 import imgGgtech from "../../assests/img/sliderPorfolio/ggtechResponsive.png"
 import imgPokemon from "../../assests/img/sliderPorfolio/pokemonResponsive.png"
 
-
 // import required modules
 import { EffectCube, Navigation} from "swiper";
-
-
 
 export default function Carousel() {
   return (
@@ -49,6 +46,7 @@ export default function Carousel() {
             </a>
           </div>
         </SwiperSlide>
+
         <SwiperSlide>
           <img src={imgVidya} alt="" className="imgSlider"/>
           <div className="divTitleBtnSlider">
@@ -58,6 +56,7 @@ export default function Carousel() {
             </a>
           </div>
         </SwiperSlide>
+
         <SwiperSlide>
           <img src={imgTatoo} className="imgSlider" alt=""/>
           
@@ -68,6 +67,7 @@ export default function Carousel() {
             </a>
           </div>
         </SwiperSlide>
+
         <SwiperSlide>
           <img src={imgMovies} alt="" className="imgSlider"/>
           
@@ -78,6 +78,7 @@ export default function Carousel() {
             </a>
           </div>
         </SwiperSlide>
+
         <SwiperSlide>
           <img src={imgPokemon} className="imgSlider" alt=""/>
           
@@ -88,6 +89,7 @@ export default function Carousel() {
             </a>
           </div>
         </SwiperSlide>
+        
         <SwiperSlide>
           <img src={imgGgtech} alt="" className="imgSlider"/>
           

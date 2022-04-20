@@ -11,7 +11,6 @@ const Footer = () => {
   return (
     <div className='footer'>
         <div className='footerDos'>
-
             <ul className="ulFooter">
                 <Link to="/" element={<Home/>} className=' linkMenuFooter'>
                     <li className='nav__item'>Home</li>
@@ -36,11 +35,9 @@ const Footer = () => {
             
             <div className='divGitLinkFooter fDos'>
                 <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/matiasmalonso/' className='linkLinkedFooter'>
-
                     <div className='divLinkedFooter'/>   
                 </a>
                 <a target='_blank' rel='noreferrer' href='https://github.com/matias5804' className='linkLinkedFooter'>
-
                    <div className='divGitHubFooter'></div>
                 </a>
             </div>

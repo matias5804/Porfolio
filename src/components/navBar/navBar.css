@@ -1,11 +1,12 @@
 li{
     list-style: none;
 }
+
 a{
     text-decoration: none;
     color: black;
-    
 }
+
 .nav{
     display: flex;
     align-items: center;
@@ -20,6 +21,7 @@ a{
     width: 8vw;
     margin: 40px;
 }
+
 .linkLinked{
     width: 14rem;
     padding-left: 15%;
@@ -34,8 +36,7 @@ a{
     width: 18vw;
     flex-direction: column;
     transform: translateX(-100%);
-    transition: 0.5s ease-in;
-    
+    transition: 0.5s ease-in;    
 }
 
 .linkMenu{
@@ -53,11 +54,11 @@ a{
     background: #2c2c2cfa;
     font-weight: 500;
 }
+
 .nav__toggler{
     cursor: pointer;
     z-index: 2;
 }
-
 
 .nav__toggler div {
     width: 2.5rem;
@@ -70,32 +71,32 @@ a{
 .divNombre{
     display: flex;
     flex-direction: column;
-
     align-items: flex-start;
 }
 
 /* Active Class */
 .nav__active {
     transform: translateX(0%);
-  }
+}
   
-  /* Toggle Icon Animation */
-  
-  .toggle .line1 {
+/* Toggle Icon Animation */
+.toggle .line1 {
     transform: rotate(-45deg) translate(-4px, 5px);
     z-index: 3;
     background: white;
-  }
-  .toggle .line2 {
-      color: white;
+}
+
+.toggle .line2 {
+    color: white;
     opacity: 0;
     z-index: 3;
-  }
-  .toggle .line3 {
+}
+
+.toggle .line3 {
     background: white;
     z-index: 3;
     transform: rotate(45deg) translate(-4px, -5px);
-  }
+}
   
 .divGitLink{
     display: flex;
@@ -129,10 +130,12 @@ a{
     height: 53px;
     width: 80%;   
 }
+
 .divLinked:hover{
     background-image: url(../../assests/img/icons/linkedInNegro.png);
     cursor: pointer;
 }
+
 .fixed-whatsapp {
     position: fixed;
     bottom: 20px;
@@ -166,8 +169,8 @@ a{
 @media (min-width: 1200px){
     .divGitLink{
         margin-top:3rem ;
-
     }
+
     .nav__menu{
         padding-top: 3rem;
         width: 17vw;
