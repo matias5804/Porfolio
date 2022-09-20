@@ -15,6 +15,7 @@ import imgMovies from "../../assests/img/sliderPorfolio/moviesResponsive.png"
 import imgTatoo from "../../assests/img/sliderPorfolio/tatooResponsive.png"
 import imgGgtech from "../../assests/img/sliderPorfolio/ggtechResponsive.png"
 import imgPokemon from "../../assests/img/sliderPorfolio/pokemonResponsive.png"
+import imgWeRemote from "../../assests/img/sliderPorfolio/weRemoteRespo.png"
 
 // import required modules
 import { EffectCube, Navigation} from "swiper";
@@ -96,6 +97,17 @@ export default function Carousel() {
           <div className="divTitleBtnSlider">
             <h3>Challenge Gg-tech</h3>
             <a href="#ggtech">
+              <button>More Info</button>  
+            </a>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <img src={imgWeRemote} alt="" className="imgSlider"/>
+          
+          <div className="divTitleBtnSlider">
+            <h3>Challenge We-Remote</h3>
+            <a href="#weRemote">
               <button>More Info</button>  
             </a>
           </div>

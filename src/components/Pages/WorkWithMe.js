@@ -10,6 +10,8 @@ import Movies from '../works/Movies';
 import Pokemon from '../works/Pokemon';
 import Ggtech from '../works/Ggtech';
 import Footer from '../footer/Footer';
+import WeRemote from '../works/WeRemote';
+
 
 const WorkWithMe = () => {
   return (
@@ -35,7 +37,8 @@ const WorkWithMe = () => {
         <EliotNess/>
         <LTatoo/>
         <Movies/>
-        <Ggtech/>
+        <WeRemote/>
+        <Ggtech/>      
         <Pokemon/>
         <Footer/>
       </div>
