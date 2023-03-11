@@ -66,10 +66,7 @@
     .imgSkills{
         height: auto;
         width: 100%;
-        bottom: 0%;
-        left: 0px;
-        position: absolute;
-        padding: 0rem 8rem 0rem 5rem;
+        padding: 0 1rem;
     }
 
     .work h1{
@@ -77,13 +74,18 @@
     }
 
     .work p{
-        font-size: 1.1rem;
-        padding: 0 1.5rem;
+        font-size: 1rem;
+        padding: 0 2rem;
+        line-height: 1.4rem;
+        letter-spacing: 0.12rem;
+        word-spacing: 0.1rem;
+
     }
 
     .work{
         width: 60%;
-        gap: 2rem;
+        gap: 1.5rem;
+        justify-content: space-between;
     }
 }
 
@@ -97,8 +99,7 @@
     }
 
     .imgSkills{
-        bottom: 0%;
-        padding: 0rem 9rem 0rem 5rem;
+
     }    
 
     .work{
@@ -109,14 +110,15 @@
 
     .work h1{
         font-size: 3rem;
-        padding: 1rem 1.5rem 0 1.5rem;
+        padding: 3rem 1.5rem 0 1.5rem;
     }
 
     .work p{
         font-size: 1.4rem;
-        letter-spacing: 1px;
-        padding: 0 3rem;
+        letter-spacing: 0.2rem;
+        padding: 0 4rem;
         font-weight: 300;
+        line-height: 1.8rem;
     }
 }
 
@@ -126,7 +128,12 @@
         padding: 2rem 4.5rem 0 4.5rem;
     }
     
-    .work{
-        gap: 4rem;
+
+
+    .work p{
+        font-size: 1.6rem;
+        letter-spacing: 0.25rem;
+        padding: 0 5rem;
+        line-height: 2rem;
     }
 }    
